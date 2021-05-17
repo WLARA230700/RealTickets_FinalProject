@@ -245,9 +245,8 @@ p{
 .fondo-evento-eventos{
     background: $blue;
     border-top-right-radius: 1em;
-    border-bottom-right-radius: 1em;
     padding-top: .5em;
-    padding-bottom: .5em;
+    height: 8.519em;
 }
 .titulo-evento-eventos{
     text-align: left;
@@ -257,6 +256,7 @@ p{
 .info-evento-eventos{
     text-align: left;
     font-size: .75em;
+    margin-bottom: 1em;
 }
 .padding-right-0{
     padding-right: 0;

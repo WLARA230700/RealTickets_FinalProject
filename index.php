@@ -1,3 +1,8 @@
+<?php
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -221,9 +226,9 @@
                             <img class="img_evento_izq" src="./imgs/Img_Home_Reciente_1.jpg" alt="">
                         </div>
                     </div>
-                    <div class="col-6 fondo-evento-eventos padding-bottom-0 height-evento">
+                    <div class="col-6 padding-bottom-0 height-evento">
                         <div class="row">
-                            <div>
+                            <div class="fondo-evento-eventos">
                                 <h3 class="titulo-evento-eventos">Título Evento</h3>
                                 <p class="info-evento-eventos">Ubicación</p>
                                 <div class="row">
@@ -255,9 +260,9 @@
                             <img class="img_evento_izq" src="./imgs/Img_Home_Reciente_2.jpg" alt="">
                         </div>
                     </div>
-                    <div class="col-6 fondo-evento-eventos padding-bottom-0 height-evento">
+                    <div class="col-6 padding-bottom-0 height-evento">
                         <div class="row">
-                            <div>
+                            <div class="fondo-evento-eventos">
                                 <h3 class="titulo-evento-eventos">Título Evento</h3>
                                 <p class="info-evento-eventos">Ubicación</p>
                                 <div class="row">
@@ -289,9 +294,9 @@
                             <img class="img_evento_izq" src="./imgs/Img_Home_Reciente_1.jpg" alt="">
                         </div>
                     </div>
-                    <div class="col-6 fondo-evento-eventos padding-bottom-0 height-evento">
+                    <div class="col-6 padding-bottom-0 height-evento">
                         <div class="row">
-                            <div>
+                            <div class="fondo-evento-eventos">
                                 <h3 class="titulo-evento-eventos">Título Evento</h3>
                                 <p class="info-evento-eventos">Ubicación</p>
                                 <div class="row">
@@ -316,6 +321,7 @@
                     </div>
                 </div>
                 <!-- ------------------CADA EVENTO------------------ -->
+                
                
                 <!-- EVENTOS -->
                 <a class="btn-ver-todos" href="#">Ver todos</a>

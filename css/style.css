@@ -272,9 +272,8 @@ p {
 .fondo-evento-eventos {
   background: #1F4761;
   border-top-right-radius: 1em;
-  border-bottom-right-radius: 1em;
   padding-top: 0.5em;
-  padding-bottom: 0.5em;
+  height: 8.519em;
 }
 
 .titulo-evento-eventos {
@@ -286,6 +285,7 @@ p {
 .info-evento-eventos {
   text-align: left;
   font-size: 0.75em;
+  margin-bottom: 1em;
 }
 
 .padding-right-0 {
