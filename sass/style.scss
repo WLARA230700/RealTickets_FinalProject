@@ -231,7 +231,8 @@ p{
     border-top-left-radius: 1em;
     border-bottom-left-radius: 1em;
     background: $dark-blue;
-    overflow: auto;
+    overflow-x: hidden;
+    overflow-y: auto;
     display: flex;
     justify-content: center;
 }

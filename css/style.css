@@ -251,7 +251,8 @@ p {
   border-top-left-radius: 1em;
   border-bottom-left-radius: 1em;
   background: #182933;
-  overflow: auto;
+  overflow-x: hidden;
+  overflow-y: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
