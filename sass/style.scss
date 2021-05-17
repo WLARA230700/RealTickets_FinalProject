@@ -150,6 +150,17 @@ p{
     background-position-x: center;
     background-position-y: center;
 }
+.img-reciente-2{
+    padding: 0;
+    width: 100%;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+    background: url(/imgs/Img_Home_Reciente_2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+}
 .btn-vermas-agregado-bg{
     border-bottom-left-radius: 1em;
     border-bottom-right-radius: 1em;
@@ -212,17 +223,23 @@ p{
 .evento-padding{
     padding: .5em 0;
 }
-.img-evento-eventos{
+.fondo-img-evento-eventos{
+    text-align: center;
     padding: 0;
     height: 100%;
     width: 100%;
     border-top-left-radius: 1em;
     border-bottom-left-radius: 1em;
-    background: url(/imgs/Img_Home_Reciente_1.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position-x: center;
-    background-position-y: center;
+    background: $dark-blue;
+    overflow: auto;
+    display: flex;
+    justify-content: center;
+}
+.img_evento_izq{
+    height: 100%;
+}
+.height-evento{
+    height: 10.625em;
 }
 .fondo-evento-eventos{
     background: $blue;
@@ -253,7 +270,7 @@ p{
     margin: 0;
 }
 .btn-vermas-evento-text{
-    padding: .5em 1em;
+    padding: .67em 1em;
     font-size: .75em;
     color: $white;
     text-decoration: none;
