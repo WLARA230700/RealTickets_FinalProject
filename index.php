@@ -15,7 +15,7 @@
         crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
 
-    <title>Real Tickets</title>
+    <title>RealTickets</title>
 </head>
 
 <body>
