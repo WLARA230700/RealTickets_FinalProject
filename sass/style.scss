@@ -1,0 +1,296 @@
+//VARIABLES
+$white: #F0F0F0;
+$blue: #1F4761;
+$dark-blue: #182933;
+$yellow: #FFA300;
+
+
+//ETIQUETAS
+body{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: 'Corbel';
+    color: $white;
+}
+h1{
+    font-weight: 600;
+    font-size: 1.876em;
+    color: $white;
+}
+h2{
+    font-weight: 600;
+    font-size: 1.25em;
+    color: $white;
+    text-align: left;
+}
+h3{
+    font-weight: 600;
+    font-size: .938em;
+    color: $white;
+}
+p{
+    font-weight: 400;
+    font-size: .938em;
+}
+//ID
+#realtickets{
+    font-style: italic;
+    font-weight: 600;
+    font-size: 1.563em;
+    color: $white;
+    margin: auto;    
+    z-index: 1;
+}
+//CLASES
+//NAV
+.nav{
+    padding: 1em .5em;
+    width: 100%;
+    text-align: center;
+    background: none;
+    transition: .5s;
+}
+.menu-mobile{
+    color: $white;
+    position: absolute;
+    top: 1.5em;
+    left: 1em;
+    z-index: 1;
+}
+.nav-list{
+    top: 0;
+    left: -100%;
+    padding: 6em 0 0 0;
+    margin: 0;
+    width: 100%;
+    height: 100vh;
+    background: $dark-blue;
+    display: block;
+    position: absolute;
+    transition: .5s;
+}
+.nav-item{
+    display: block;
+    padding: .5em 0;
+}
+.nav-link{
+    text-decoration: none;
+    display: block;
+    color: $white;
+    font-size: 1.563em;
+    &:hover{
+        color: $yellow;
+    }
+}
+//HEADER
+.header-section{
+    background: url(/imgs/Img_Home.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: bottom;
+}
+.header-tittle{
+    padding: 6em 0 4em;
+}
+.header-buscar{
+    background: $white;
+    color: $dark-blue;
+    border-radius: .5em;
+    padding: 1em;
+    margin-bottom: 5em;
+}
+.buscar-icon{
+    float: left;
+    color: $dark-blue;
+    height: 100%;
+    width: auto;
+    margin: auto 0;
+    margin-right: 1em;
+}
+.buscar-text{
+    padding: 0;
+    margin: 0;
+    text-align: left;
+    width: 89%;
+    border: none;
+    background: none;
+    font-weight: 400;
+    font-size: .938em;
+    font-family: 'Corbel';
+}
+//ULTIMOS AGREGADOS
+.ultimos-agregados-tittle{
+    padding-left: 1.25em;
+    padding-bottom: .625em;
+    &::before{
+        content: "";
+        display: block;
+        padding-bottom: 1px;
+        background: $white;
+        margin-bottom: .625em;
+        width: 100%;
+    }
+}
+.titulo-evento{
+    color: #FFA300;
+    margin-top: 5em;
+    text-align: left;
+    margin-left: .5em;
+}
+.img-reciente-1{
+    padding: 0;
+    width: 100%;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
+    background: url(/imgs/Img_Home_Reciente_1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+}
+.btn-vermas-agregado-bg{
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+    background: $dark-blue;
+    margin-bottom: 2em;
+    padding: 0 .5em;
+}
+.btn-vermas-evento{
+    padding: .5em;
+    color: $white;
+    font-size: .75em;
+    text-decoration: none;
+    text-align: left;
+    margin: 0;
+    &:hover{
+        color: $yellow;
+    }
+}
+.background-home{
+    background: linear-gradient(#09141A, $blue);
+}
+//CATEGORIAS
+.categorias-section{
+    height: 130px;
+    overflow: auto;
+    white-space: nowrap;
+}
+.categoria-tittle{
+    padding: 1.5em 0;
+}
+.categoria-bg{
+    background: linear-gradient($blue, #00000000);
+    width: 60%;
+    height: 110px;
+    border-radius: 1em;
+    margin: 0 1em 1em 0;
+    display: inline-block;
+}
+.categoria-link{
+    text-decoration: none;
+    &:hover{
+        color: $white;
+    }
+}
+.categoria-tittle-categorias{
+    text-align: left;
+    padding: 1em 1em 0;
+    margin: 0;
+}
+.img-categoria-categorias{
+    float: right;
+    margin-right: 1em;
+    height: 60px;
+    width: auto;
+}
+//EVENTOS
+.eventos-tittle{
+    padding-top: 1em;
+}
+.evento-padding{
+    padding: .5em 0;
+}
+.img-evento-eventos{
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    border-top-left-radius: 1em;
+    border-bottom-left-radius: 1em;
+    background: url(/imgs/Img_Home_Reciente_1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+}
+.fondo-evento-eventos{
+    background: $blue;
+    border-top-right-radius: 1em;
+    border-bottom-right-radius: 1em;
+    padding-top: .5em;
+    padding-bottom: .5em;
+}
+.titulo-evento-eventos{
+    text-align: left;
+    font-size: .938em;
+    color: $yellow;
+}
+.info-evento-eventos{
+    text-align: left;
+    font-size: .75em;
+}
+.padding-right-0{
+    padding-right: 0;
+}
+.padding-left-0{
+    padding-left: 0;
+}
+.padding-bottom-0{
+    padding-bottom: 0;
+}
+.margin-0{
+    margin: 0;
+}
+.btn-vermas-evento-text{
+    padding: .5em 1em;
+    font-size: .75em;
+    color: $white;
+    text-decoration: none;
+    text-align: left;
+    margin: 0;
+    &:hover{
+        color: $yellow;
+    }
+}
+.vermas-float-right{
+    float: right;
+}
+.btn-vermas-evento-fondo{
+    background: $dark-blue;
+    padding: 0;
+    margin: 0;
+    border-bottom-right-radius: 1em;
+}
+.btn-ver-todos{
+    background: $yellow;
+    padding: .5em;
+    margin: .5em auto 2em;
+    border-radius: .2em;
+    color: $dark-blue;
+    text-decoration: none;
+    text-align: center;
+    &:hover{
+        color: $yellow;
+        background: $dark-blue;
+    }
+}
+//FOOTER
+.footer-bg{
+    background: $dark-blue;
+}
+.footer-text{
+    padding: 2em 0;
+    text-align: right;
+    font-size: .75em;
+}
