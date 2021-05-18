@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body {
   margin: 0;
   padding: 0;
@@ -37,6 +38,14 @@ p {
   color: #F0F0F0;
   margin: auto;
   z-index: 1;
+}
+
+.logo-link {
+  text-decoration: none;
+  color: #F0F0F0;
+}
+.logo-link:hover {
+  color: #F0F0F0;
 }
 
 .nav {
@@ -85,6 +94,7 @@ p {
   color: #FFA300;
 }
 
+/******************************************* PÁGINA INICIO *******************************************/
 .header-section {
   background: url(/imgs/Img_Home.jpg);
   background-repeat: no-repeat;
@@ -316,7 +326,7 @@ p {
   color: #FFA300;
 }
 
-.vermas-float-right {
+.float-right {
   float: right;
 }
 
@@ -349,4 +359,87 @@ p {
   padding: 2em 0;
   text-align: right;
   font-size: 0.75em;
+}
+
+/******************************************* PÁGINA EVENTOS *******************************************/
+.eventos-header-section {
+  background: url(/imgs/Img_Eventos.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: bottom;
+}
+
+.tittle-line {
+  text-align: left;
+  margin-bottom: 0;
+}
+.tittle-line::after {
+  content: "";
+  display: block;
+  margin-top: 1em;
+  padding-bottom: 1px;
+  background: #F0F0F0;
+  width: 100%;
+}
+
+.breadcrumbs {
+  text-align: left;
+  margin-top: 15em;
+  margin-bottom: 0.5em;
+}
+
+.background-eventos {
+  background: -webkit-gradient(linear, left top, left bottom, from(#0C0C0C), to(#1F4761));
+  background: linear-gradient(#0C0C0C, #1F4761);
+}
+
+.search-mobile {
+  color: #F0F0F0;
+  position: absolute;
+  top: 1.5em;
+  right: 1em;
+  z-index: 1;
+}
+
+.searchbar {
+  margin-top: 4em;
+  opacity: 0%;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.eventos-categorias-bg {
+  display: block;
+  background: #182933;
+  width: 90%;
+  margin: 1em auto;
+  border-radius: 0.2em;
+}
+
+.eventos-categorias-text {
+  padding: 0.2em 0;
+  float: left;
+}
+
+.eventos-categorias-link {
+  text-decoration: none;
+  color: #F0F0F0;
+}
+.eventos-categorias-link:hover {
+  color: #FFA300;
+}
+
+.eventos-categorias-item {
+  list-style: none;
+  margin: 0.5em 0;
+  background: #182933;
+}
+
+.eventos-categorias-list {
+  display: none;
+  margin: 0 auto;
+  width: 90%;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
