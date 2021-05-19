@@ -434,6 +434,7 @@ p {
   list-style: none;
   margin: 0.5em 0;
   background: #182933;
+  border-radius: 0.2em;
 }
 
 .eventos-categorias-list {
@@ -442,4 +443,56 @@ p {
   width: 90%;
   -webkit-transition: 0.5s;
   transition: 0.5s;
+}
+
+/******************************************* PÁGINA CATEGORÍA *******************************************/
+.categoria-header-section {
+  background: url(/imgs/Img_Teatro.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: bottom;
+}
+
+/******************************************* PÁGINA EVENTO *******************************************/
+.evento-header-section {
+  background: url(/imgs/Img_Home_Reciente_1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center;
+  background-position-y: bottom;
+}
+
+.evento-header-opacity {
+  background: #24242480;
+}
+
+.evento-info {
+  text-align: left;
+}
+
+.evento-precio {
+  padding: 0.2em 0;
+  color: #FFA300;
+  font-weight: 600;
+  margin: 0 0 2em;
+}
+
+.evento-pad-top {
+  padding-top: 1em;
+}
+
+.evento-btn-registrarse {
+  padding: 0.2em 0;
+  display: block;
+  background: #FFA300;
+  color: #182933;
+  border-radius: 0.2em;
+  text-decoration: none;
+  font-weight: 600;
+  margin: 0 0 2em;
+}
+.evento-btn-registrarse:hover {
+  background: #182933;
+  color: #FFA300;
 }

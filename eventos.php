@@ -157,12 +157,12 @@
                 <span class="float-right">+</span>
             </div>
             <ul class="eventos-categorias-list">
-                <li class="eventos-categorias-item"><a class="eventos-categorias-link" href="./categorias.php">Académico</a></li>
-                <li class="eventos-categorias-item"><a class="eventos-categorias-link" href="./categorias.php">Arte</a></li>
-                <li class="eventos-categorias-item"><a class="eventos-categorias-link" href="./categorias.php">Cinema</a></li>
-                <li class="eventos-categorias-item"><a class="eventos-categorias-link" href="./categorias.php">Conciertos</a></li>
-                <li class="eventos-categorias-item"><a class="eventos-categorias-link" href="./categorias.php">Fiestas</a></li>
-                <li class="eventos-categorias-item"><a class="eventos-categorias-link" href="./categorias.php">Teatro</a></li>
+                <li class="eventos-categorias-item"><a class="eventos-categorias-link" href="./categoria.php">Académico</a></li>
+                <li class="eventos-categorias-item"><a class="eventos-categorias-link" href="./categoria.php">Arte</a></li>
+                <li class="eventos-categorias-item"><a class="eventos-categorias-link" href="./categoria.php">Cinema</a></li>
+                <li class="eventos-categorias-item"><a class="eventos-categorias-link" href="./categoria.php">Conciertos</a></li>
+                <li class="eventos-categorias-item"><a class="eventos-categorias-link" href="./categoria.php">Fiestas</a></li>
+                <li class="eventos-categorias-item"><a class="eventos-categorias-link" href="./categoria.php">Teatro</a></li>
             </ul>
             <!-- CATEGORÍAS -->
             <!-- EVENTOS -->
@@ -192,9 +192,9 @@
                         </div>
                         <div class="row">
                             <div class="row btn-vermas-evento-fondo">
-                                <a class="btn-vermas-evento-text" href="#">
+                                <a class="btn-vermas-evento-text" href="./evento.php">
                                     <span>Ver más</span>
-                                    <span class="vermas-float-right">></span>
+                                    <span class="float-right">></span>
                                 </a>
                             </div>
                         </div>
@@ -226,9 +226,9 @@
                         </div>
                         <div class="row">
                             <div class="row btn-vermas-evento-fondo">
-                                <a class="btn-vermas-evento-text" href="#">
+                                <a class="btn-vermas-evento-text" href="./evento.php">
                                     <span>Ver más</span>
-                                    <span class="vermas-float-right">></span>
+                                    <span class="float-right">></span>
                                 </a>
                             </div>
                         </div>
@@ -260,9 +260,9 @@
                         </div>
                         <div class="row">
                             <div class="row btn-vermas-evento-fondo">
-                                <a class="btn-vermas-evento-text" href="#">
+                                <a class="btn-vermas-evento-text" href="./evento.php">
                                     <span>Ver más</span>
-                                    <span class="vermas-float-right">></span>
+                                    <span class="float-right">></span>
                                 </a>
                             </div>
                         </div>
@@ -294,9 +294,9 @@
                         </div>
                         <div class="row">
                             <div class="row btn-vermas-evento-fondo">
-                                <a class="btn-vermas-evento-text" href="#">
+                                <a class="btn-vermas-evento-text" href="./evento.php">
                                     <span>Ver más</span>
-                                    <span class="vermas-float-right">></span>
+                                    <span class="float-right">></span>
                                 </a>
                             </div>
                         </div>
@@ -328,9 +328,9 @@
                         </div>
                         <div class="row">
                             <div class="row btn-vermas-evento-fondo">
-                                <a class="btn-vermas-evento-text" href="#">
+                                <a class="btn-vermas-evento-text" href="./evento.php">
                                     <span>Ver más</span>
-                                    <span class="vermas-float-right">></span>
+                                    <span class="float-right">></span>
                                 </a>
                             </div>
                         </div>

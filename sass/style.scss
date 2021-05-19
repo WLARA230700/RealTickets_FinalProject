@@ -382,10 +382,56 @@ p{
     list-style: none;
     margin: .5em 0;
     background: $dark-blue;
+    border-radius: .2em;
 }
 .eventos-categorias-list{
     display: none;
     margin: 0 auto;    
     width: 90%;
     transition: .5s;
+}
+/******************************************* PÁGINA CATEGORÍA *******************************************/
+.categoria-header-section{
+    background: url(/imgs/Img_Teatro.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: bottom;
+}
+/******************************************* PÁGINA EVENTO *******************************************/
+.evento-header-section{
+    background: url(/imgs/Img_Home_Reciente_1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: bottom;
+}
+.evento-header-opacity{
+    background: #24242480;
+}
+.evento-info{
+    text-align: left;    
+}
+.evento-precio{
+    padding: .2em 0;
+    color: $yellow;
+    font-weight: 600;
+    margin: 0 0 2em;
+}
+.evento-pad-top{
+    padding-top: 1em;
+}
+.evento-btn-registrarse{
+    padding: .2em 0;
+    display: block;
+    background: $yellow;
+    color: $dark-blue;
+    border-radius: .2em;
+    text-decoration: none;
+    font-weight: 600;
+    margin: 0 0 2em;
+    &:hover{
+        background: $dark-blue;
+        color: $yellow;
+    }
 }
