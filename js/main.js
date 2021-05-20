@@ -7,7 +7,7 @@ function openMenu() {
     let navlist = document.getElementsByClassName ("nav-list")[0];
     let doc = document.getElementsByTagName("html")[0];
 
-    if (!menuMobileOpen) { //ABRIR PANEL
+    if (!menuMobileOpen) { //ABRIR PANEL        
         menu.style.color = "#FFA300";
         navlist.style.left = "0";
         menuMobileOpen = true;
@@ -24,6 +24,8 @@ function openSearch() {
   let searchbar = document.getElementsByClassName ("searchbar")[0];
 
   if (!searchOpen) { //ABRIR PANEL
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
     search.style.color = "#FFA300";
     searchOpen = true;
     searchbar.style.opacity = "100%";
