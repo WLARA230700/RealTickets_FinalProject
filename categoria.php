@@ -328,14 +328,12 @@
                 <!-- EVENTOS -->
                 <a class="btn-ver-todos" href="#">Ver todos</a>
             </div>
-            <!-- FOOTER -->
-            <div class="row margin-0 footer-bg">
+        </div>
+        <!-- FOOTER -->
+        <div class="row footer-bg">
                 <div class="col footer-text">Ⓒ 2021</div>
             </div>
             <!-- FOOTER -->
-
-
-        </div>
 
         <script src="./js/main.js"></script>
 

@@ -1,3 +1,5 @@
+@import 'media-queries';
+
 //VARIABLES
 $white: #F0F0F0;
 $blue: #1F4761;
@@ -17,21 +19,33 @@ h1{
     font-weight: 600;
     font-size: 1.876em;
     color: $white;
+    @include respond-to($large-desktop){
+        font-size: 3.2em;
+    }
 }
 h2{
     font-weight: 600;
     font-size: 1.25em;
     color: $white;
     text-align: left;
+    @include respond-to($large-desktop){
+        font-size: 1.7em;
+    }
 }
 h3{
     font-weight: 600;
     font-size: .938em;
     color: $white;
+    @include respond-to($large-desktop){
+        font-size: 1.5em;
+    }
 }
 p{
     font-weight: 400;
     font-size: .938em;
+    @include respond-to($large-desktop){
+        font-size: 1.5em;
+    }
 }
 //ID
 #realtickets{
@@ -41,6 +55,10 @@ p{
     color: $white;
     margin: auto;    
     z-index: 1;
+    @include respond-to($large-desktop){
+        text-align: left;
+        padding-left: 1em;
+    }
 }
 .logo-link{
     text-decoration: none;
@@ -57,6 +75,9 @@ p{
     text-align: center;
     background: none;
     transition: .5s;
+    @include respond-to($large-desktop){
+        display: block;
+    }
 }
 .menu-mobile{
     color: $white;
@@ -64,6 +85,9 @@ p{
     top: 1.5em;
     left: 1em;
     z-index: 1;
+    @include respond-to($large-desktop){
+        display: none;
+    }
 }
 .nav-list{
     top: 0;
@@ -98,6 +122,9 @@ p{
     background-size: cover;
     background-position-x: center;
     background-position-y: bottom;
+    @include respond-to($large-desktop){
+        padding: 0 25%;
+    }
 }
 .header-tittle{
     padding: 6em 0 4em;
@@ -186,15 +213,24 @@ p{
     &:hover{
         color: $yellow;
     }
+    @include respond-to($large-desktop){
+        font-size: 1.2em;
+    }
 }
 .background-home{
     background: linear-gradient(#09141A, $blue);
+    @include respond-to($large-desktop){
+        padding: 0 25%;
+    }
 }
 //CATEGORIAS
 .categorias-section{
-    height: 130px;
+    height: 150px;
     overflow: auto;
     white-space: nowrap;
+    @include respond-to($large-desktop){
+        height: 200px;
+    }
 }
 .categoria-tittle{
     padding: 1.5em 0;
@@ -249,22 +285,35 @@ p{
 }
 .height-evento{
     height: 10.625em;
+    @include respond-to($large-desktop){
+        height: 17em;
+    }
 }
 .fondo-evento-eventos{
     background: $blue;
     border-top-right-radius: 1em;
     padding-top: .5em;
     height: 8.519em;
+    @include respond-to($large-desktop){
+        height: 13.592em;
+    }
 }
 .titulo-evento-eventos{
     text-align: left;
     font-size: .938em;
     color: $yellow;
+    @include respond-to($large-desktop){
+        font-size: 1.5em;
+        padding-bottom: .5em;
+    }
 }
 .info-evento-eventos{
     text-align: left;
     font-size: .75em;
     margin-bottom: 1em;
+    @include respond-to($large-desktop){
+        font-size: 1.2em;
+    }
 }
 .padding-right-0{
     padding-right: 0;
@@ -288,6 +337,9 @@ p{
     &:hover{
         color: $yellow;
     }
+    @include respond-to($large-desktop){
+        font-size: 1.2em;
+    }
 }
 .float-right{
     float: right;
@@ -310,15 +362,24 @@ p{
         color: $yellow;
         background: $dark-blue;
     }
+    @include respond-to($large-desktop){
+        font-size: 1.2em;
+    }
 }
 //FOOTER
 .footer-bg{
     background: $dark-blue;
+    @include respond-to($large-desktop){
+        padding: 1em 25%;
+    }
 }
 .footer-text{
     padding: 2em 0;
     text-align: right;
     font-size: .75em;
+    @include respond-to($large-desktop){
+        font-size: 1em;
+    }
 }
 /******************************************* PÁGINA EVENTOS *******************************************/
 .eventos-header-section{
@@ -327,6 +388,9 @@ p{
     background-size: cover;
     background-position-x: center;
     background-position-y: bottom;
+    @include respond-to($large-desktop){
+        padding: 0 25%;
+    }
 }
 .tittle-line{
     text-align: left;
@@ -347,6 +411,9 @@ p{
 }
 .background-eventos{
     background: linear-gradient(#0C0C0C, $blue);
+    @include respond-to($large-desktop){
+        padding: 0 25%;
+    }
 }
 .search-mobile{
     color: $white;
@@ -354,6 +421,12 @@ p{
     top: 1.5em;
     right: 1em;
     z-index: 1;
+    &:hover{
+        cursor: pointer;
+    }
+    @include respond-to($large-desktop){
+        right: 2em;
+    }
 }
 .searchbar{
     margin-top: 4em;
@@ -366,6 +439,9 @@ p{
     width: 90%;
     margin: 1em auto;
     border-radius: .2em;
+    &:hover{
+        cursor: pointer;
+    }
 }
 .eventos-categorias-text{
     padding: .2em 0;
@@ -398,6 +474,9 @@ p{
     background-size: cover;
     background-position-x: center;
     background-position-y: bottom;
+    @include respond-to($large-desktop){
+        padding: 0 25%;
+    }
 }
 /******************************************* PÁGINA EVENTO *******************************************/
 .evento-header-section{
@@ -405,13 +484,19 @@ p{
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: center;
-    background-position-y: bottom;
+    background-position-y: center;
 }
 .evento-header-opacity{
     background: #24242480;
+    @include respond-to($large-desktop){
+        padding: 0 25%;
+    }
 }
 .evento-info{
-    text-align: left;    
+    text-align: left;
+    @include respond-to($large-desktop){
+        font-size: 1.2em;
+    }
 }
 .evento-precio{
     padding: .2em 0;
@@ -435,6 +520,10 @@ p{
         background: $dark-blue;
         color: $yellow;
     }
+    @include respond-to($large-desktop){
+        padding: .5em 0;
+        font-size: 1.5em;
+    }
 }
 /******************************************* PÁGINA REGISTRO *******************************************/
 .registrarse-precio{
@@ -455,6 +544,13 @@ p{
     font-size: 1.25em;
     margin: 0;
     padding: 0;
+    &:hover{
+        cursor: pointer;
+    }
+    @include respond-to($large-desktop){
+        width: 50%;
+        margin: auto;
+    }
 }
 .registrarse-line{
     margin-bottom: 0;
@@ -483,11 +579,18 @@ p{
     margin-bottom: 1em;
     padding: .2em .5em;
     color: $white;
+    @include respond-to($large-desktop){
+        padding: .5em;
+    }
 }
 /******************************************* PÁGINA RESUMEN *******************************************/
 .resumen-bg{
     background: linear-gradient($dark-blue, $blue);
     height: 100vh;
+    @include respond-to($large-desktop){
+        padding: 0 25%;
+        height: auto;
+    }
 }
 .resumen-breadcrumbs{
     margin-top: 5em;
@@ -499,4 +602,12 @@ p{
 }
 .resumen-total-bold{
     font-weight: 600;
+    @include respond-to($large-desktop){
+        font-size: 1.5em;
+    }
+}
+.resumen-btn-aceptar{
+    @include respond-to($large-desktop){
+        margin: 1em 0;
+    }
 }

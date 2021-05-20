@@ -68,20 +68,20 @@
             <div class="col-6 resumen-total-bold">$200</div>
 
             <div class="col-12">
-                <a class="evento-btn-registrarse" href="./index.php">Aceptar</a>
+                <a class="evento-btn-registrarse resumen-btn-aceptar" href="./index.php">Aceptar</a>
             </div>
 
 
         </div>
+
+        <!-- FOOTER -->
+    <div class="row footer-bg">
+                <div class="col footer-text">Ⓒ 2021</div>
+            </div>
+            <!-- FOOTER -->
     </div>
 
-    <div class="row margin-0 background-eventos">
-        <!-- FOOTER -->
-        <div class="row margin-0 footer-bg">
-            <div class="col footer-text">Ⓒ 2021</div>
-        </div>
-        <!-- FOOTER -->
-    </div>
+    
 
 
     <script src="./js/main.js"></script>

@@ -12,6 +12,11 @@ h1 {
   font-size: 1.876em;
   color: #F0F0F0;
 }
+@media only screen and (min-width: 1200px) {
+  h1 {
+    font-size: 3.2em;
+  }
+}
 
 h2 {
   font-weight: 600;
@@ -19,16 +24,31 @@ h2 {
   color: #F0F0F0;
   text-align: left;
 }
+@media only screen and (min-width: 1200px) {
+  h2 {
+    font-size: 1.7em;
+  }
+}
 
 h3 {
   font-weight: 600;
   font-size: 0.938em;
   color: #F0F0F0;
 }
+@media only screen and (min-width: 1200px) {
+  h3 {
+    font-size: 1.5em;
+  }
+}
 
 p {
   font-weight: 400;
   font-size: 0.938em;
+}
+@media only screen and (min-width: 1200px) {
+  p {
+    font-size: 1.5em;
+  }
 }
 
 #realtickets {
@@ -38,6 +58,12 @@ p {
   color: #F0F0F0;
   margin: auto;
   z-index: 1;
+}
+@media only screen and (min-width: 1200px) {
+  #realtickets {
+    text-align: left;
+    padding-left: 1em;
+  }
 }
 
 .logo-link {
@@ -56,6 +82,11 @@ p {
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
+@media only screen and (min-width: 1200px) {
+  .nav {
+    display: block;
+  }
+}
 
 .menu-mobile {
   color: #F0F0F0;
@@ -63,6 +94,11 @@ p {
   top: 1.5em;
   left: 1em;
   z-index: 1;
+}
+@media only screen and (min-width: 1200px) {
+  .menu-mobile {
+    display: none;
+  }
 }
 
 .nav-list {
@@ -101,6 +137,11 @@ p {
   background-size: cover;
   background-position-x: center;
   background-position-y: bottom;
+}
+@media only screen and (min-width: 1200px) {
+  .header-section {
+    padding: 0 25%;
+  }
 }
 
 .header-tittle {
@@ -199,16 +240,31 @@ p {
 .btn-vermas-evento:hover {
   color: #FFA300;
 }
+@media only screen and (min-width: 1200px) {
+  .btn-vermas-evento {
+    font-size: 1.2em;
+  }
+}
 
 .background-home {
   background: -webkit-gradient(linear, left top, left bottom, from(#09141A), to(#1F4761));
   background: linear-gradient(#09141A, #1F4761);
 }
+@media only screen and (min-width: 1200px) {
+  .background-home {
+    padding: 0 25%;
+  }
+}
 
 .categorias-section {
-  height: 130px;
+  height: 150px;
   overflow: auto;
   white-space: nowrap;
+}
+@media only screen and (min-width: 1200px) {
+  .categorias-section {
+    height: 200px;
+  }
 }
 
 .categoria-tittle {
@@ -278,6 +334,11 @@ p {
 .height-evento {
   height: 10.625em;
 }
+@media only screen and (min-width: 1200px) {
+  .height-evento {
+    height: 17em;
+  }
+}
 
 .fondo-evento-eventos {
   background: #1F4761;
@@ -285,17 +346,33 @@ p {
   padding-top: 0.5em;
   height: 8.519em;
 }
+@media only screen and (min-width: 1200px) {
+  .fondo-evento-eventos {
+    height: 13.592em;
+  }
+}
 
 .titulo-evento-eventos {
   text-align: left;
   font-size: 0.938em;
   color: #FFA300;
 }
+@media only screen and (min-width: 1200px) {
+  .titulo-evento-eventos {
+    font-size: 1.5em;
+    padding-bottom: 0.5em;
+  }
+}
 
 .info-evento-eventos {
   text-align: left;
   font-size: 0.75em;
   margin-bottom: 1em;
+}
+@media only screen and (min-width: 1200px) {
+  .info-evento-eventos {
+    font-size: 1.2em;
+  }
 }
 
 .padding-right-0 {
@@ -325,6 +402,11 @@ p {
 .btn-vermas-evento-text:hover {
   color: #FFA300;
 }
+@media only screen and (min-width: 1200px) {
+  .btn-vermas-evento-text {
+    font-size: 1.2em;
+  }
+}
 
 .float-right {
   float: right;
@@ -350,15 +432,30 @@ p {
   color: #FFA300;
   background: #182933;
 }
+@media only screen and (min-width: 1200px) {
+  .btn-ver-todos {
+    font-size: 1.2em;
+  }
+}
 
 .footer-bg {
   background: #182933;
+}
+@media only screen and (min-width: 1200px) {
+  .footer-bg {
+    padding: 1em 25%;
+  }
 }
 
 .footer-text {
   padding: 2em 0;
   text-align: right;
   font-size: 0.75em;
+}
+@media only screen and (min-width: 1200px) {
+  .footer-text {
+    font-size: 1em;
+  }
 }
 
 /******************************************* PÁGINA EVENTOS *******************************************/
@@ -368,6 +465,11 @@ p {
   background-size: cover;
   background-position-x: center;
   background-position-y: bottom;
+}
+@media only screen and (min-width: 1200px) {
+  .eventos-header-section {
+    padding: 0 25%;
+  }
 }
 
 .tittle-line {
@@ -393,6 +495,11 @@ p {
   background: -webkit-gradient(linear, left top, left bottom, from(#0C0C0C), to(#1F4761));
   background: linear-gradient(#0C0C0C, #1F4761);
 }
+@media only screen and (min-width: 1200px) {
+  .background-eventos {
+    padding: 0 25%;
+  }
+}
 
 .search-mobile {
   color: #F0F0F0;
@@ -400,6 +507,14 @@ p {
   top: 1.5em;
   right: 1em;
   z-index: 1;
+}
+.search-mobile:hover {
+  cursor: pointer;
+}
+@media only screen and (min-width: 1200px) {
+  .search-mobile {
+    right: 2em;
+  }
 }
 
 .searchbar {
@@ -415,6 +530,9 @@ p {
   width: 90%;
   margin: 1em auto;
   border-radius: 0.2em;
+}
+.eventos-categorias-bg:hover {
+  cursor: pointer;
 }
 
 .eventos-categorias-text {
@@ -454,6 +572,11 @@ p {
   background-position-x: center;
   background-position-y: bottom;
 }
+@media only screen and (min-width: 1200px) {
+  .categoria-header-section {
+    padding: 0 25%;
+  }
+}
 
 /******************************************* PÁGINA EVENTO *******************************************/
 .evento-header-section {
@@ -461,15 +584,25 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
   background-position-x: center;
-  background-position-y: bottom;
+  background-position-y: center;
 }
 
 .evento-header-opacity {
   background: #24242480;
 }
+@media only screen and (min-width: 1200px) {
+  .evento-header-opacity {
+    padding: 0 25%;
+  }
+}
 
 .evento-info {
   text-align: left;
+}
+@media only screen and (min-width: 1200px) {
+  .evento-info {
+    font-size: 1.2em;
+  }
 }
 
 .evento-precio {
@@ -497,6 +630,12 @@ p {
   background: #182933;
   color: #FFA300;
 }
+@media only screen and (min-width: 1200px) {
+  .evento-btn-registrarse {
+    padding: 0.5em 0;
+    font-size: 1.5em;
+  }
+}
 
 /******************************************* PÁGINA REGISTRO *******************************************/
 .registrarse-precio {
@@ -517,6 +656,15 @@ p {
   font-size: 1.25em;
   margin: 0;
   padding: 0;
+}
+.registrarse-btn-entradas:hover {
+  cursor: pointer;
+}
+@media only screen and (min-width: 1200px) {
+  .registrarse-btn-entradas {
+    width: 50%;
+    margin: auto;
+  }
 }
 
 .registrarse-line {
@@ -549,12 +697,23 @@ p {
   padding: 0.2em 0.5em;
   color: #F0F0F0;
 }
+@media only screen and (min-width: 1200px) {
+  .confirmar-input {
+    padding: 0.5em;
+  }
+}
 
 /******************************************* PÁGINA RESUMEN *******************************************/
 .resumen-bg {
   background: -webkit-gradient(linear, left top, left bottom, from(#182933), to(#1F4761));
   background: linear-gradient(#182933, #1F4761);
   height: 100vh;
+}
+@media only screen and (min-width: 1200px) {
+  .resumen-bg {
+    padding: 0 25%;
+    height: auto;
+  }
 }
 
 .resumen-breadcrumbs {
@@ -567,4 +726,15 @@ p {
 
 .resumen-total-bold {
   font-weight: 600;
+}
+@media only screen and (min-width: 1200px) {
+  .resumen-total-bold {
+    font-size: 1.5em;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .resumen-btn-aceptar {
+    margin: 1em 0;
+  }
 }
