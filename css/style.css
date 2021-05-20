@@ -425,6 +425,9 @@ p {
 .eventos-categorias-link {
   text-decoration: none;
   color: #F0F0F0;
+  background: #182933;
+  border-radius: 0.2em;
+  display: block;
 }
 .eventos-categorias-link:hover {
   color: #FFA300;
@@ -433,8 +436,6 @@ p {
 .eventos-categorias-item {
   list-style: none;
   margin: 0.5em 0;
-  background: #182933;
-  border-radius: 0.2em;
 }
 
 .eventos-categorias-list {
