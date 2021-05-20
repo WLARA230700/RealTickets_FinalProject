@@ -57,7 +57,7 @@ p{
     z-index: 1;
     @include respond-to($large-desktop){
         text-align: left;
-        padding-left: 1em;
+        padding-left: 3em;
     }
 }
 .logo-link{
@@ -72,7 +72,7 @@ p{
     float: right;
     font-weight: 400;
     font-style: normal;
-    padding: 0 1em;
+    margin-right: 3em;
     color: $white;
     text-decoration: none;
     font-size: .938em;
@@ -375,6 +375,7 @@ p{
     color: $dark-blue;
     text-decoration: none;
     text-align: center;
+    width: 90%;
     &:hover{
         color: $yellow;
         background: $dark-blue;

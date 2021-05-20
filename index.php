@@ -59,7 +59,7 @@
                         </g>
                     </svg>
                     <!-- MENU MOBILE -->
-                    <p id="realtickets"><a class="logo-link" href="./index.php">RealTickets</a><a class="nav-desktop">Categorías</a><a href="./eventos.php" class="nav-desktop">Eventos</a></p>
+                    <p id="realtickets"><a class="logo-link" href="./index.php">RealTickets</a><span class="nav-desktop">Categorías</span><a href="./eventos.php" class="nav-desktop">Eventos</a></p>
                     <ul class="nav-list">
                         <li class="nav-item"><a href="./eventos.php" class="nav-link">Eventos</a></li>
                         <li class="nav-item"><a href="./categoria.php" class="nav-link">Académico</a></li>
