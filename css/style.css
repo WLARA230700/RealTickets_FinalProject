@@ -209,6 +209,12 @@ p {
   padding: 1em;
   margin-bottom: 5em;
 }
+@media only screen and (min-width: 1200px) {
+  .header-buscar {
+    width: 80%;
+    margin: 0 auto 5em;
+  }
+}
 
 .buscar-icon {
   float: left;
@@ -314,11 +320,6 @@ p {
   overflow: auto;
   white-space: nowrap;
 }
-@media only screen and (min-width: 1200px) {
-  .categorias-section {
-    height: 200px;
-  }
-}
 
 .categoria-tittle {
   padding: 1.5em 0;
@@ -332,6 +333,12 @@ p {
   border-radius: 1em;
   margin: 0 1em 1em 0;
   display: inline-block;
+}
+@media only screen and (min-width: 1200px) {
+  .categoria-bg {
+    height: 80px;
+    width: 30%;
+  }
 }
 
 .categoria-link {
