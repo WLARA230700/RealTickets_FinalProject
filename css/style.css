@@ -1,14 +1,50 @@
 @charset "UTF-8";
+@font-face {
+  font-family: "CorbelRegular";
+  src: url("../fonts/CORBEL.woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "CorbelBold";
+  src: url("../fonts/CORBELB.woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "CorbelItalic";
+  src: url("../fonts/CORBELI.woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "CorbelLight";
+  src: url("../fonts/CORBELL.woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "CorbelLightItalic";
+  src: url("../fonts/CORBELLI.woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "CorbelBoldItalic";
+  src: url("../fonts/CORBELZ.woff");
+  font-weight: normal;
+  font-style: normal;
+}
 body {
   margin: 0;
   padding: 0;
   text-align: center;
-  font-family: "Corbel";
+  font-family: "CorbelRegular";
   color: #F0F0F0;
 }
 
 h1 {
-  font-weight: 600;
+  font-family: "CorbelBold";
   font-size: 1.876em;
   color: #F0F0F0;
 }
@@ -19,7 +55,7 @@ h1 {
 }
 
 h2 {
-  font-weight: 600;
+  font-family: "CorbelBold";
   font-size: 1.25em;
   color: #F0F0F0;
   text-align: left;
@@ -31,7 +67,7 @@ h2 {
 }
 
 h3 {
-  font-weight: 600;
+  font-family: "CorbelBold";
   font-size: 0.938em;
   color: #F0F0F0;
 }
@@ -42,7 +78,7 @@ h3 {
 }
 
 p {
-  font-weight: 400;
+  font-family: "CorbelRegular";
   font-size: 0.938em;
 }
 @media only screen and (min-width: 1200px) {
@@ -52,8 +88,7 @@ p {
 }
 
 #realtickets {
-  font-style: italic;
-  font-weight: 600;
+  font-family: "CorbelBoldItalic";
   font-size: 1.563em;
   color: #F0F0F0;
   margin: auto;
@@ -77,8 +112,7 @@ p {
 .nav-desktop {
   display: none;
   float: right;
-  font-weight: 400;
-  font-style: normal;
+  font-family: "CorbelRegular";
   margin-right: 3em;
   color: #F0F0F0;
   text-decoration: none;
@@ -192,9 +226,8 @@ p {
   width: 89%;
   border: none;
   background: none;
-  font-weight: 400;
   font-size: 0.938em;
-  font-family: "Corbel";
+  font-family: "CorbelRegular";
 }
 
 .ultimos-agregados-tittle {
@@ -630,7 +663,7 @@ p {
 .evento-precio {
   padding: 0.2em 0;
   color: #FFA300;
-  font-weight: 600;
+  font-family: "CorbelBold";
   margin: 0 0 2em;
 }
 
@@ -645,7 +678,7 @@ p {
   color: #182933;
   border-radius: 0.2em;
   text-decoration: none;
-  font-weight: 600;
+  font-family: "CorbelBold";
   margin: 0 0 2em;
 }
 .evento-btn-registrarse:hover {
@@ -674,7 +707,7 @@ p {
   background: #FFA300;
   border-radius: 0.2em;
   color: #182933;
-  font-weight: 600;
+  font-family: "CorbelBold";
   font-size: 1.25em;
   margin: 0;
   padding: 0;
@@ -714,7 +747,7 @@ p {
   background: none;
   border: 0.1em solid #FFA300;
   border-radius: 0.5em;
-  font-family: "Corbel";
+  font-family: "CorbelRegular";
   margin-bottom: 1em;
   padding: 0.2em 0.5em;
   color: #F0F0F0;
@@ -747,7 +780,7 @@ p {
 }
 
 .resumen-total-bold {
-  font-weight: 600;
+  font-family: "CorbelBold";
 }
 @media only screen and (min-width: 1200px) {
   .resumen-total-bold {

@@ -1,4 +1,5 @@
 @import 'media-queries';
+@import 'fonts';
 
 //VARIABLES
 $white: #F0F0F0;
@@ -12,11 +13,11 @@ body{
     margin: 0;
     padding: 0;
     text-align: center;
-    font-family: 'Corbel';
+    font-family: 'CorbelRegular';
     color: $white;
 }
 h1{
-    font-weight: 600;
+    font-family: 'CorbelBold';
     font-size: 1.876em;
     color: $white;
     @include respond-to($large-desktop){
@@ -24,7 +25,7 @@ h1{
     }
 }
 h2{
-    font-weight: 600;
+    font-family: 'CorbelBold';
     font-size: 1.25em;
     color: $white;
     text-align: left;
@@ -33,7 +34,7 @@ h2{
     }
 }
 h3{
-    font-weight: 600;
+    font-family: 'CorbelBold';
     font-size: .938em;
     color: $white;
     @include respond-to($large-desktop){
@@ -41,7 +42,7 @@ h3{
     }
 }
 p{
-    font-weight: 400;
+    font-family: 'CorbelRegular';
     font-size: .938em;
     @include respond-to($large-desktop){
         font-size: 1.5em;
@@ -49,8 +50,7 @@ p{
 }
 //ID
 #realtickets{
-    font-style: italic;
-    font-weight: 600;
+    font-family: 'CorbelBoldItalic';
     font-size: 1.563em;
     color: $white;
     margin: auto;    
@@ -70,8 +70,7 @@ p{
 .nav-desktop{
     display: none;
     float: right;
-    font-weight: 400;
-    font-style: normal;
+    font-family: 'CorbelRegular';
     margin-right: 3em;
     color: $white;
     text-decoration: none;
@@ -168,9 +167,8 @@ p{
     width: 89%;
     border: none;
     background: none;
-    font-weight: 400;
     font-size: .938em;
-    font-family: 'Corbel';
+    font-family: 'CorbelRegular';
 }
 //ULTIMOS AGREGADOS
 .ultimos-agregados-tittle{
@@ -520,7 +518,7 @@ p{
 .evento-precio{
     padding: .2em 0;
     color: $yellow;
-    font-weight: 600;
+    font-family: 'CorbelBold';
     margin: 0 0 2em;
 }
 .evento-pad-top{
@@ -533,7 +531,7 @@ p{
     color: $dark-blue;
     border-radius: .2em;
     text-decoration: none;
-    font-weight: 600;
+    font-family: 'CorbelBold';
     margin: 0 0 2em;
     &:hover{
         background: $dark-blue;
@@ -559,7 +557,7 @@ p{
     background: $yellow;
     border-radius: .2em;
     color: $dark-blue;
-    font-weight: 600;
+    font-family: 'CorbelBold';
     font-size: 1.25em;
     margin: 0;
     padding: 0;
@@ -594,7 +592,7 @@ p{
     background: none;
     border: .1em solid $yellow;
     border-radius: .5em;
-    font-family: 'Corbel';
+    font-family: 'CorbelRegular';
     margin-bottom: 1em;
     padding: .2em .5em;
     color: $white;
@@ -620,7 +618,7 @@ p{
     }    
 }
 .resumen-total-bold{
-    font-weight: 600;
+    font-family: 'CorbelBold';
     @include respond-to($large-desktop){
         font-size: 1.5em;
     }
