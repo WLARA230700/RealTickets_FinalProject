@@ -435,3 +435,67 @@ p{
         color: $yellow;
     }
 }
+/******************************************* PÁGINA REGISTRO *******************************************/
+.registrarse-precio{
+    display: block;
+    border: .1em solid;
+    border-radius: .2em;
+    border-color: $white;
+    margin: 0;
+    padding: 0;
+    
+}
+.registrarse-btn-entradas{
+    display: block;
+    background: $yellow;
+    border-radius: .2em;
+    color: $dark-blue;
+    font-weight: 600;
+    font-size: 1.25em;
+    margin: 0;
+    padding: 0;
+}
+.registrarse-line{
+    margin-bottom: 0;
+    &::before{
+        content: "";
+        display: block;
+        margin-bottom: 1em;
+        padding-bottom: 1px;
+        background: $white;
+        width: 100%;
+    }
+}
+/******************************************* PÁGINA CONFIRMACIÓN *******************************************/
+.confirmar-label{
+    display: block;
+    text-align: center;
+    padding: .5em 0;
+}
+.confirmar-input{
+    display: block;
+    width: 100%;
+    background: none;
+    border: .1em solid $yellow;
+    border-radius: .5em;
+    font-family: 'Corbel';
+    margin-bottom: 1em;
+    padding: .2em .5em;
+    color: $white;
+}
+/******************************************* PÁGINA RESUMEN *******************************************/
+.resumen-bg{
+    background: linear-gradient($dark-blue, $blue);
+    height: 100vh;
+}
+.resumen-breadcrumbs{
+    margin-top: 5em;
+}
+.margin-bottom-0{
+    &::before{
+        margin-bottom: 0;
+    }    
+}
+.resumen-total-bold{
+    font-weight: 600;
+}

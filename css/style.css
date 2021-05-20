@@ -496,3 +496,74 @@ p {
   background: #182933;
   color: #FFA300;
 }
+
+/******************************************* PÁGINA REGISTRO *******************************************/
+.registrarse-precio {
+  display: block;
+  border: 0.1em solid;
+  border-radius: 0.2em;
+  border-color: #F0F0F0;
+  margin: 0;
+  padding: 0;
+}
+
+.registrarse-btn-entradas {
+  display: block;
+  background: #FFA300;
+  border-radius: 0.2em;
+  color: #182933;
+  font-weight: 600;
+  font-size: 1.25em;
+  margin: 0;
+  padding: 0;
+}
+
+.registrarse-line {
+  margin-bottom: 0;
+}
+.registrarse-line::before {
+  content: "";
+  display: block;
+  margin-bottom: 1em;
+  padding-bottom: 1px;
+  background: #F0F0F0;
+  width: 100%;
+}
+
+/******************************************* PÁGINA CONFIRMACIÓN *******************************************/
+.confirmar-label {
+  display: block;
+  text-align: center;
+  padding: 0.5em 0;
+}
+
+.confirmar-input {
+  display: block;
+  width: 100%;
+  background: none;
+  border: 0.1em solid #FFA300;
+  border-radius: 0.5em;
+  font-family: "Corbel";
+  margin-bottom: 1em;
+  padding: 0.2em 0.5em;
+  color: #F0F0F0;
+}
+
+/******************************************* PÁGINA RESUMEN *******************************************/
+.resumen-bg {
+  background: -webkit-gradient(linear, left top, left bottom, from(#182933), to(#1F4761));
+  background: linear-gradient(#182933, #1F4761);
+  height: 100vh;
+}
+
+.resumen-breadcrumbs {
+  margin-top: 5em;
+}
+
+.margin-bottom-0::before {
+  margin-bottom: 0;
+}
+
+.resumen-total-bold {
+  font-weight: 600;
+}

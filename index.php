@@ -321,8 +321,8 @@
                     </div>
                 </div>
                 <!-- ------------------CADA EVENTO------------------ -->
-                
-               
+
+
                 <!-- EVENTOS -->
                 <a class="btn-ver-todos" href="./eventos.php">Ver todos</a>
             </div>
