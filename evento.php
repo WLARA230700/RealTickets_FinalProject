@@ -190,7 +190,7 @@
                     <p class="evento-precio">Precio</p>
                 </div>
                 <div class="col-6">
-                    <a class="evento-btn-registrarse" href="./registrarse.php">Registrarse</a>
+                    <a class="evento-btn-registrarse" href="./registro.php">Registrarse</a>
                 </div>
             </div>
             <!-- INFO EVENTO -->
