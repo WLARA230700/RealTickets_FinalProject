@@ -108,10 +108,9 @@ p{
 .nav-list{
     top: 0;
     left: -100%;
-    padding: 6em 0 0 0;
+    padding: 6em 0 25em;
     margin: 0;
     width: 100%;
-    height: 100vh;
     background: $dark-blue;
     display: block;
     position: absolute;
@@ -452,8 +451,7 @@ p{
 }
 .searchbar{
     margin-top: 4em;
-    opacity: 0%;
-    transition: .5s;
+    visibility: hidden;
 }
 .eventos-categorias-bg{
     display: block;

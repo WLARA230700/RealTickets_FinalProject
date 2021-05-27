@@ -28,11 +28,11 @@ function openSearch() {
     document.documentElement.scrollTop = 0;
     search.style.color = "#FFA300";
     searchOpen = true;
-    searchbar.style.opacity = "100%";
+    searchbar.style.visibility = "visible";
   }else{ //CERRAR PANEL
     search.style.color = "#F0F0F0";
     searchOpen = false;
-    searchbar.style.opacity = "0%";
+    searchbar.style.visibility = "hidden";
   }    
 }
 function openCategorias() {
