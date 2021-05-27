@@ -93,6 +93,8 @@ p {
   color: #F0F0F0;
   margin: auto;
   z-index: 1;
+  width: 75%;
+  float: left;
 }
 @media only screen and (min-width: 1200px) {
   #realtickets {
@@ -116,7 +118,8 @@ p {
   margin-right: 3em;
   color: #F0F0F0;
   text-decoration: none;
-  font-size: 0.938em;
+  font-size: 1.25em;
+  margin-bottom: 0;
 }
 .nav-desktop:hover {
   color: #FFA300;
@@ -181,6 +184,32 @@ p {
 }
 .nav-link:hover {
   color: #FFA300;
+}
+
+.nav-dropd-categorias {
+  position: relative;
+  display: inline-block;
+}
+
+.nav-dropd-categorias-content {
+  text-align: left;
+  padding-top: 1.5em;
+  display: none;
+  position: absolute;
+  top: 1.75em;
+  background-color: none;
+  color: #F0F0F0;
+  min-width: 160px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.nav-dropd-categorias-content a {
+  font-size: 1.25em;
+}
+
+.nav-dropd-categorias:hover .nav-dropd-categorias-content {
+  display: block;
 }
 
 /******************************************* PÁGINA INICIO *******************************************/
@@ -351,6 +380,7 @@ p {
   text-align: left;
   padding: 1em 1em 0;
   margin: 0;
+  font-size: 1.25em;
 }
 
 .img-categoria-categorias {
@@ -583,44 +613,57 @@ p {
   visibility: hidden;
 }
 
+.eventos-dropd-categorias {
+  position: relative;
+  display: inline-block;
+}
+@media only screen and (min-width: 1200px) {
+  .eventos-dropd-categorias {
+    font-size: 1.25em;
+  }
+}
+
+.eventos-dropd-categorias-content {
+  margin: 0;
+  text-align: center;
+  padding-top: 0.5em;
+  display: none;
+  position: absolute;
+  top: 1.75em;
+  left: 0;
+  background-color: #182933;
+  color: #F0F0F0;
+  width: 100%;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.eventos-dropd-categorias-content a {
+  font-size: 0.938em;
+}
+.eventos-dropd-categorias-content a:hover {
+  background-color: #1F4761;
+}
+
+.eventos-dropd-categorias:hover .eventos-dropd-categorias-content {
+  display: block;
+}
+
 .eventos-categorias-bg {
   display: block;
   background: #182933;
-  width: 90%;
   margin: 1em auto;
   border-radius: 0.2em;
+  width: 90%;
 }
 .eventos-categorias-bg:hover {
   cursor: pointer;
+  color: #FFA300;
 }
 
 .eventos-categorias-text {
   padding: 0.2em 0;
   float: left;
-}
-
-.eventos-categorias-link {
-  text-decoration: none;
-  color: #F0F0F0;
-  background: #182933;
-  border-radius: 0.2em;
-  display: block;
-}
-.eventos-categorias-link:hover {
-  color: #FFA300;
-}
-
-.eventos-categorias-item {
-  list-style: none;
-  margin: 0.5em 0;
-}
-
-.eventos-categorias-list {
-  display: none;
-  margin: 0 auto;
-  width: 90%;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
 }
 
 /******************************************* PÁGINA CATEGORÍA *******************************************/

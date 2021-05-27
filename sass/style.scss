@@ -55,6 +55,8 @@ p{
     color: $white;
     margin: auto;    
     z-index: 1;
+    width: 75%;
+    float: left;
     @include respond-to($large-desktop){
         text-align: left;
         padding-left: 3em;
@@ -74,7 +76,8 @@ p{
     margin-right: 3em;
     color: $white;
     text-decoration: none;
-    font-size: .938em;
+    font-size: 1.25em;
+    margin-bottom: 0;
     &:hover{
         color: $yellow;
         cursor: pointer;
@@ -129,6 +132,25 @@ p{
         color: $yellow;
     }
 }
+.nav-dropd-categorias{
+    position: relative;
+    display: inline-block;
+}
+.nav-dropd-categorias-content{
+    text-align: left;
+    padding-top: 1.5em;
+    display: none;
+    position: absolute;
+    top: 1.75em;
+    background-color: none;
+    color: $white;
+    min-width: 160px;
+    transition: .5s;
+}
+.nav-dropd-categorias-content a{
+    font-size: 1.25em;
+}
+.nav-dropd-categorias:hover .nav-dropd-categorias-content{ display: block; }
 /******************************************* PÁGINA INICIO *******************************************/
 //HEADER
 .header-section{
@@ -272,6 +294,7 @@ p{
     text-align: left;
     padding: 1em 1em 0;
     margin: 0;
+    font-size: 1.25em;
 }
 .img-categoria-categorias{
     float: right;
@@ -453,39 +476,47 @@ p{
     margin-top: 4em;
     visibility: hidden;
 }
+.eventos-dropd-categorias{
+    position: relative;
+    display: inline-block;
+    @include respond-to($large-desktop){
+        font-size: 1.25em;
+    }
+}
+.eventos-dropd-categorias-content{
+    margin: 0;
+    text-align: center;
+    padding-top: .5em;
+    display: none;
+    position: absolute;
+    top: 1.75em;
+    left: 0;
+    background-color: $dark-blue;
+    color: $white;
+    width: 100%;
+    transition: .5s;
+}
+.eventos-dropd-categorias-content a{
+    font-size: .938em;
+    &:hover{
+        background-color: $blue;
+    }
+}
+.eventos-dropd-categorias:hover .eventos-dropd-categorias-content{ display: block; }
 .eventos-categorias-bg{
     display: block;
     background: $dark-blue;
-    width: 90%;
     margin: 1em auto;
     border-radius: .2em;
+    width: 90%;
     &:hover{
         cursor: pointer;
+        color: $yellow;
     }
 }
 .eventos-categorias-text{
     padding: .2em 0;
     float: left;
-}
-.eventos-categorias-link{
-    text-decoration: none;
-    color: $white;
-    background: $dark-blue;
-    border-radius: .2em;
-    display: block;
-    &:hover{
-        color: $yellow;
-    }
-}
-.eventos-categorias-item{
-    list-style: none;
-    margin: .5em 0;    
-}
-.eventos-categorias-list{
-    display: none;
-    margin: 0 auto;    
-    width: 90%;
-    transition: .5s;
 }
 /******************************************* PÁGINA CATEGORÍA *******************************************/
 .categoria-header-section{

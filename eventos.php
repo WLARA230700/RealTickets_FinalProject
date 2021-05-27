@@ -152,24 +152,18 @@
 
         <div class="row background-eventos">
             <!-- CATEGORÍAS -->
-            <div onclick="openCategorias()" class="eventos-categorias-bg">
+            <div class="eventos-dropd-categorias eventos-categorias-bg">
                 <span class="eventos-categorias-text">Categorías</span>
                 <span class="float-right">+</span>
+                <div class="eventos-dropd-categorias-content">
+                    <a href="./categoria.php" class="nav-link">Académico</a>
+                    <a href="./categoria.php" class="nav-link">Arte</a>
+                    <a href="./categoria.php" class="nav-link">Cinema</a>
+                    <a href="./categoria.php" class="nav-link">Conciertos</a>
+                    <a href="./categoria.php" class="nav-link">Fiestas</a>
+                    <a href="./categoria.php" class="nav-link">Teatro</a>
+                </div>
             </div>
-            <ul class="eventos-categorias-list">
-                <li class="eventos-categorias-item"><a class="eventos-categorias-link"
-                        href="./categoria.php">Académico</a></li>
-                <li class="eventos-categorias-item"><a class="eventos-categorias-link" href="./categoria.php">Arte</a>
-                </li>
-                <li class="eventos-categorias-item"><a class="eventos-categorias-link" href="./categoria.php">Cinema</a>
-                </li>
-                <li class="eventos-categorias-item"><a class="eventos-categorias-link"
-                        href="./categoria.php">Conciertos</a></li>
-                <li class="eventos-categorias-item"><a class="eventos-categorias-link"
-                        href="./categoria.php">Fiestas</a></li>
-                <li class="eventos-categorias-item"><a class="eventos-categorias-link" href="./categoria.php">Teatro</a>
-                </li>
-            </ul>
             <!-- CATEGORÍAS -->
             <!-- EVENTOS -->
             <div class="row margin-0">

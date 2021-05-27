@@ -62,7 +62,9 @@ window.onscroll = function() {scrollFunction()};
 function scrollFunction() {
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
     document.getElementsByClassName("nav")[0].style.background = "#182933";
+    document.getElementsByClassName("nav-dropd-categorias-content")[0].style.background = "#182933";
   } else {
     document.getElementsByClassName("nav")[0].style.background = "none";
+    document.getElementsByClassName("nav-dropd-categorias-content")[0].style.background = "none";
   }
 }
