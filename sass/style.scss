@@ -48,6 +48,9 @@ h1{
     @include respond-to($large-desktop){
         font-size: 3.2em;
     }
+    @include respond-to($tablet-landscape){
+        font-size: 1.7em;
+    }
 }
 h2{
     font-family: 'CorbelBold';
@@ -57,6 +60,9 @@ h2{
     @include respond-to($large-desktop){
         font-size: 1.7em;
     }
+    @include respond-to($tablet-landscape){
+        font-size: 1.5em;
+    }
 }
 h3{
     font-family: 'CorbelBold';
@@ -65,12 +71,18 @@ h3{
     @include respond-to($large-desktop){
         font-size: 1.5em;
     }
+    @include respond-to($tablet-landscape){
+        font-size: 1.2em;
+    }
 }
 p{
     font-family: 'CorbelRegular';
     font-size: .938em;
     @include respond-to($large-desktop){
         font-size: 1.5em;
+    }
+    @include respond-to($tablet-landscape){
+        font-size: 1.2em;
     }
 }
 //ID
@@ -85,6 +97,11 @@ p{
     @include respond-to($large-desktop){
         text-align: left;
         padding-left: 3em;
+    }
+    @include respond-to($tablet-landscape){
+        text-align: left;
+        padding-left: 1em;
+        width: 70%;
     }
 }
 .logo-link{
@@ -110,6 +127,10 @@ p{
     @include respond-to($large-desktop){
         display: block;
     }
+    @include respond-to($tablet-landscape){
+        display: block;
+        margin-right: 1em;
+    }
 }
 //CLASES
 //NAV
@@ -122,6 +143,9 @@ p{
     @include respond-to($large-desktop){
         display: block;
     }
+    @include respond-to($tablet-landscape){
+        display: block;
+    }
 }
 .menu-mobile{
     color: $white;
@@ -130,6 +154,9 @@ p{
     left: 1em;
     z-index: 1;
     @include respond-to($large-desktop){
+        display: none;
+    }
+    @include respond-to($tablet-landscape){
         display: none;
     }
 }
@@ -187,6 +214,12 @@ p{
     @include respond-to($large-desktop){
         padding: 0 25%;
     }
+    @include respond-to($tablet-landscape){
+        padding: 0 20%;
+    }
+    @include respond-to($tablet-portrait){
+        padding: 0 10%;
+    }
 }
 .header-tittle{
     padding: 6em 0 4em;
@@ -199,6 +232,10 @@ p{
     margin-bottom: 5em;
     @include respond-to($large-desktop){
         width: 80%;
+        margin: 0 auto 5em;
+    }
+    @include respond-to($tablet-portrait){
+        width: 90%;
         margin: 0 auto 5em;
     }
 }
@@ -281,11 +318,20 @@ p{
     @include respond-to($large-desktop){
         font-size: 1.2em;
     }
+    @include respond-to($tablet-landscape){
+        font-size: .938em;
+    }
 }
 .background-home{
     background: linear-gradient(#09141A, $blue);
     @include respond-to($large-desktop){
         padding: 0 25%;
+    }
+    @include respond-to($tablet-landscape){
+        padding: 0 20%;
+    }
+    @include respond-to($tablet-portrait){
+        padding: 0 10%;
     }
 }
 //CATEGORIAS
@@ -307,6 +353,14 @@ p{
     @include respond-to($large-desktop){
         height: 80px;
         width: 30%;
+    }
+    @include respond-to($tablet-landscape){
+        height: 80px;
+        width: 40%;
+    }
+    @include respond-to($tablet-portrait){
+        height: 80px;
+        width: 50%;
     }
 }
 .categoria-link{
@@ -355,6 +409,12 @@ p{
     @include respond-to($large-desktop){
         height: 17em;
     }
+    @include respond-to($tablet-landscape){
+        height: 15em;
+    }
+    @include respond-to($tablet-portrait){
+        height: 12em;
+    }
 }
 .fondo-evento-eventos{
     background: $blue;
@@ -363,6 +423,12 @@ p{
     height: 8.519em;
     @include respond-to($large-desktop){
         height: 13.592em;
+    }
+    @include respond-to($tablet-landscape){
+        height: 12.161em;
+    }
+    @include respond-to($tablet-portrait){
+        height: 9.896em;
     }
 }
 .titulo-evento-eventos{
@@ -373,6 +439,14 @@ p{
         font-size: 1.5em;
         padding-bottom: .5em;
     }
+    @include respond-to($tablet-landscape){
+        font-size: 1.5em;
+        padding-bottom: .5em;
+    }
+    @include respond-to($tablet-portrait){
+        font-size: 1.2em;
+        padding-bottom: .5em;
+    }
 }
 .info-evento-eventos{
     text-align: left;
@@ -380,6 +454,12 @@ p{
     margin-bottom: 1em;
     @include respond-to($large-desktop){
         font-size: 1.2em;
+    }
+    @include respond-to($tablet-landscape){
+        font-size: 1em;
+    }
+    @include respond-to($tablet-portrait){
+        font-size: .938em;
     }
 }
 .padding-right-0{
@@ -406,6 +486,9 @@ p{
     }
     @include respond-to($large-desktop){
         font-size: 1.2em;
+    }
+    @include respond-to($tablet-landscape){
+        font-size: 1em;
     }
 }
 .float-right{
@@ -440,6 +523,9 @@ p{
     @include respond-to($large-desktop){
         padding: 1em 25%;
     }
+    @include respond-to($tablet-landscape){
+        padding: 0 20%;
+    }
 }
 .footer-text{
     padding: 2em 0;
@@ -459,6 +545,12 @@ p{
     background-position-y: bottom;
     @include respond-to($large-desktop){
         padding: 0 25%;
+    }
+    @include respond-to($tablet-landscape){
+        padding: 0 20%;
+    }
+    @include respond-to($tablet-portrait){
+        padding: 0 10%;
     }
 }
 .tittle-line{
@@ -482,6 +574,12 @@ p{
     background: linear-gradient(#0C0C0C, $blue);
     @include respond-to($large-desktop){
         padding: 0 25%;
+    }
+    @include respond-to($tablet-landscape){
+        padding: 0 20%;
+    }
+    @include respond-to($tablet-portrait){
+        padding: 0 10%;
     }
 }
 .search-mobile{
@@ -553,6 +651,12 @@ p{
     @include respond-to($large-desktop){
         padding: 0 25%;
     }
+    @include respond-to($tablet-landscape){
+        padding: 0 20%;
+    }
+    @include respond-to($tablet-portrait){
+        padding: 0 10%;
+    }
 }
 /******************************************* PÁGINA EVENTO *******************************************/
 .evento-header-section{
@@ -567,11 +671,20 @@ p{
     @include respond-to($large-desktop){
         padding: 0 25%;
     }
+    @include respond-to($tablet-landscape){
+        padding: 0 20%;
+    }
+    @include respond-to($tablet-portrait){
+        padding: 0 10%;
+    }
 }
 .evento-info{
     text-align: left;
     @include respond-to($large-desktop){
         font-size: 1.2em;
+    }
+    @include respond-to($tablet-landscape){
+        font-size: 1em;
     }
 }
 .evento-precio{
@@ -579,6 +692,10 @@ p{
     color: $yellow;
     font-family: 'CorbelBold';
     margin: 0 0 2em;
+    @include respond-to($tablet-landscape){
+        padding: .5em 0;
+        font-size: 1.2em;
+    }
 }
 .evento-pad-top{
     padding-top: 1em;
@@ -599,6 +716,10 @@ p{
     @include respond-to($large-desktop){
         padding: .5em 0;
         font-size: 1.5em;
+    }
+    @include respond-to($tablet-landscape){
+        padding: .5em 0;
+        font-size: 1.2em;
     }
 }
 /******************************************* PÁGINA REGISTRO *******************************************/
@@ -627,6 +748,14 @@ p{
     }
     @include respond-to($large-desktop){
         width: 50%;
+        margin: auto;
+    }
+    @include respond-to($tablet-landscape){
+        width: 50%;
+        margin: auto;
+    }
+    @include respond-to($tablet-portrait){
+        width: 80%;
         margin: auto;
     }
 }
@@ -669,6 +798,14 @@ p{
         padding: 0 25%;
         height: auto;
     }
+    @include respond-to($tablet-landscape){
+        padding: 0 20%;
+        height: 100vh;
+    }
+    @include respond-to($tablet-portrait){
+        padding: 0 10%;
+        height: 100vh;
+    }
 }
 .resumen-breadcrumbs{
     margin-top: 5em;
@@ -683,6 +820,9 @@ p{
     @include respond-to($large-desktop){
         font-size: 1.5em;
     }
+    @include respond-to($tablet-landscape){
+        font-size: 1.2em;
+    }
 }
 .resumen-btn-aceptar{
     @include respond-to($large-desktop){
@@ -691,6 +831,9 @@ p{
 }
 .resumen-text{
     @include respond-to($large-desktop){
+        margin-bottom: 1em;
+    }
+    @include respond-to($tablet-landscape){
         margin-bottom: 1em;
     }
 }

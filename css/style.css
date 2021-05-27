@@ -80,6 +80,11 @@ h1 {
     font-size: 3.2em;
   }
 }
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+  h1 {
+    font-size: 1.7em;
+  }
+}
 
 h2 {
   font-family: "CorbelBold";
@@ -90,6 +95,11 @@ h2 {
 @media only screen and (min-width: 1200px) {
   h2 {
     font-size: 1.7em;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+  h2 {
+    font-size: 1.5em;
   }
 }
 
@@ -103,6 +113,11 @@ h3 {
     font-size: 1.5em;
   }
 }
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+  h3 {
+    font-size: 1.2em;
+  }
+}
 
 p {
   font-family: "CorbelRegular";
@@ -111,6 +126,11 @@ p {
 @media only screen and (min-width: 1200px) {
   p {
     font-size: 1.5em;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+  p {
+    font-size: 1.2em;
   }
 }
 
@@ -127,6 +147,13 @@ p {
   #realtickets {
     text-align: left;
     padding-left: 3em;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+  #realtickets {
+    text-align: left;
+    padding-left: 1em;
+    width: 70%;
   }
 }
 
@@ -157,6 +184,12 @@ p {
     display: block;
   }
 }
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+  .nav-desktop {
+    display: block;
+    margin-right: 1em;
+  }
+}
 
 .nav {
   padding: 1em 0.5em;
@@ -171,6 +204,11 @@ p {
     display: block;
   }
 }
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+  .nav {
+    display: block;
+  }
+}
 
 .menu-mobile {
   color: #F0F0F0;
@@ -180,6 +218,11 @@ p {
   z-index: 1;
 }
 @media only screen and (min-width: 1200px) {
+  .menu-mobile {
+    display: none;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
   .menu-mobile {
     display: none;
   }
@@ -252,6 +295,16 @@ p {
     padding: 0 25%;
   }
 }
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+  .header-section {
+    padding: 0 20%;
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .header-section {
+    padding: 0 10%;
+  }
+}
 
 .header-tittle {
   padding: 6em 0 4em;
@@ -267,6 +320,12 @@ p {
 @media only screen and (min-width: 1200px) {
   .header-buscar {
     width: 80%;
+    margin: 0 auto 5em;
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .header-buscar {
+    width: 90%;
     margin: 0 auto 5em;
   }
 }
@@ -359,6 +418,11 @@ p {
     font-size: 1.2em;
   }
 }
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+  .btn-vermas-evento {
+    font-size: 0.938em;
+  }
+}
 
 .background-home {
   background: -webkit-gradient(linear, left top, left bottom, from(#09141A), to(#1F4761));
@@ -367,6 +431,16 @@ p {
 @media only screen and (min-width: 1200px) {
   .background-home {
     padding: 0 25%;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+  .background-home {
+    padding: 0 20%;
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .background-home {
+    padding: 0 10%;
   }
 }
 
@@ -393,6 +467,18 @@ p {
   .categoria-bg {
     height: 80px;
     width: 30%;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+  .categoria-bg {
+    height: 80px;
+    width: 40%;
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .categoria-bg {
+    height: 80px;
+    width: 50%;
   }
 }
 
@@ -455,6 +541,16 @@ p {
     height: 17em;
   }
 }
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+  .height-evento {
+    height: 15em;
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .height-evento {
+    height: 12em;
+  }
+}
 
 .fondo-evento-eventos {
   background: #1F4761;
@@ -465,6 +561,16 @@ p {
 @media only screen and (min-width: 1200px) {
   .fondo-evento-eventos {
     height: 13.592em;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+  .fondo-evento-eventos {
+    height: 12.161em;
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .fondo-evento-eventos {
+    height: 9.896em;
   }
 }
 
@@ -479,6 +585,18 @@ p {
     padding-bottom: 0.5em;
   }
 }
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+  .titulo-evento-eventos {
+    font-size: 1.5em;
+    padding-bottom: 0.5em;
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .titulo-evento-eventos {
+    font-size: 1.2em;
+    padding-bottom: 0.5em;
+  }
+}
 
 .info-evento-eventos {
   text-align: left;
@@ -488,6 +606,16 @@ p {
 @media only screen and (min-width: 1200px) {
   .info-evento-eventos {
     font-size: 1.2em;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+  .info-evento-eventos {
+    font-size: 1em;
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .info-evento-eventos {
+    font-size: 0.938em;
   }
 }
 
@@ -521,6 +649,11 @@ p {
 @media only screen and (min-width: 1200px) {
   .btn-vermas-evento-text {
     font-size: 1.2em;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+  .btn-vermas-evento-text {
+    font-size: 1em;
   }
 }
 
@@ -563,6 +696,11 @@ p {
     padding: 1em 25%;
   }
 }
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+  .footer-bg {
+    padding: 0 20%;
+  }
+}
 
 .footer-text {
   padding: 2em 0;
@@ -587,6 +725,16 @@ p {
 @media only screen and (min-width: 1200px) {
   .eventos-header-section {
     padding: 0 25%;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+  .eventos-header-section {
+    padding: 0 20%;
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .eventos-header-section {
+    padding: 0 10%;
   }
 }
 
@@ -616,6 +764,16 @@ p {
 @media only screen and (min-width: 1200px) {
   .background-eventos {
     padding: 0 25%;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+  .background-eventos {
+    padding: 0 20%;
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .background-eventos {
+    padding: 0 10%;
   }
 }
 
@@ -706,6 +864,16 @@ p {
     padding: 0 25%;
   }
 }
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+  .categoria-header-section {
+    padding: 0 20%;
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .categoria-header-section {
+    padding: 0 10%;
+  }
+}
 
 /******************************************* PÁGINA EVENTO *******************************************/
 .evento-header-section {
@@ -724,6 +892,16 @@ p {
     padding: 0 25%;
   }
 }
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+  .evento-header-opacity {
+    padding: 0 20%;
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .evento-header-opacity {
+    padding: 0 10%;
+  }
+}
 
 .evento-info {
   text-align: left;
@@ -733,12 +911,23 @@ p {
     font-size: 1.2em;
   }
 }
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+  .evento-info {
+    font-size: 1em;
+  }
+}
 
 .evento-precio {
   padding: 0.2em 0;
   color: #FFA300;
   font-family: "CorbelBold";
   margin: 0 0 2em;
+}
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+  .evento-precio {
+    padding: 0.5em 0;
+    font-size: 1.2em;
+  }
 }
 
 .evento-pad-top {
@@ -763,6 +952,12 @@ p {
   .evento-btn-registrarse {
     padding: 0.5em 0;
     font-size: 1.5em;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+  .evento-btn-registrarse {
+    padding: 0.5em 0;
+    font-size: 1.2em;
   }
 }
 
@@ -794,6 +989,18 @@ p {
 @media only screen and (min-width: 1200px) {
   .registrarse-btn-entradas {
     width: 50%;
+    margin: auto;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+  .registrarse-btn-entradas {
+    width: 50%;
+    margin: auto;
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .registrarse-btn-entradas {
+    width: 80%;
     margin: auto;
   }
 }
@@ -846,6 +1053,18 @@ p {
     height: auto;
   }
 }
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+  .resumen-bg {
+    padding: 0 20%;
+    height: 100vh;
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .resumen-bg {
+    padding: 0 10%;
+    height: 100vh;
+  }
+}
 
 .resumen-breadcrumbs {
   margin-top: 5em;
@@ -863,6 +1082,11 @@ p {
     font-size: 1.5em;
   }
 }
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+  .resumen-total-bold {
+    font-size: 1.2em;
+  }
+}
 
 @media only screen and (min-width: 1200px) {
   .resumen-btn-aceptar {
@@ -871,6 +1095,11 @@ p {
 }
 
 @media only screen and (min-width: 1200px) {
+  .resumen-text {
+    margin-bottom: 1em;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
   .resumen-text {
     margin-bottom: 1em;
   }
