@@ -9,8 +9,12 @@ $yellow: #FFA300;
 
 //SCROLLBAR
 ::-webkit-scrollbar {
-    width: 10px;
-    height: 10px;
+    width: 5px;
+    height: 5px;
+    @include respond-to($large-desktop){
+        width: 10px;
+        height: 10px;
+    }
 }
   
 /* Track */
