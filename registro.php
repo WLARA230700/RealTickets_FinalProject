@@ -92,7 +92,7 @@
                     <p class="registrarse-precio">$100</p>
                 </div>
                 <div class="col-3">
-                    <p class="">Adulto</p>
+                    <p>Adulto</p>
                 </div>
                 <div class="col-2">
                     <p class="registrarse-btn-entradas">-</p>
@@ -109,13 +109,13 @@
                     <p class="registrarse-precio">$50</p>
                 </div>
                 <div class="col-3">
-                    <p class="">Menor</p>
+                    <p>Menor</p>
                 </div>
                 <div class="col-2">
                     <p class="registrarse-btn-entradas">-</p>
                 </div>
                 <div class="col-2">
-                    <p class="">2</p>
+                    <p>2</p>
                 </div>
                 <div class="col-2">
                     <p class="registrarse-btn-entradas">+</p>
@@ -126,7 +126,7 @@
                     <p class="registrarse-precio">$200</p>
                 </div>
                 <div class="col-3">
-                    <p class="">Total</p>
+                    <p>Total</p>
                 </div>
                 <div class="col-6">
                     <p class="">3 tickets</p>

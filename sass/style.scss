@@ -7,6 +7,27 @@ $blue: #1F4761;
 $dark-blue: #182933;
 $yellow: #FFA300;
 
+//SCROLLBAR
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+  
+/* Track */
+::-webkit-scrollbar-track {
+    background: $blue;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: $white;
+    border-radius: .5em;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: $yellow;
+}
 
 //ETIQUETAS
 body{
@@ -597,6 +618,8 @@ p{
     padding: 0;
     &:hover{
         cursor: pointer;
+        background: $blue;
+        color: $yellow;
     }
     @include respond-to($large-desktop){
         width: 50%;
@@ -661,4 +684,12 @@ p{
     @include respond-to($large-desktop){
         margin: 1em 0;
     }
+}
+.resumen-text{
+    @include respond-to($large-desktop){
+        margin-bottom: 1em;
+    }
+}
+.align-center{
+    text-align: center;
 }

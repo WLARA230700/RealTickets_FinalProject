@@ -35,6 +35,27 @@
   font-weight: normal;
   font-style: normal;
 }
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #1F4761;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #F0F0F0;
+  border-radius: 0.5em;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #FFA300;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -761,6 +782,8 @@ p {
 }
 .registrarse-btn-entradas:hover {
   cursor: pointer;
+  background: #1F4761;
+  color: #FFA300;
 }
 @media only screen and (min-width: 1200px) {
   .registrarse-btn-entradas {
@@ -839,4 +862,14 @@ p {
   .resumen-btn-aceptar {
     margin: 1em 0;
   }
+}
+
+@media only screen and (min-width: 1200px) {
+  .resumen-text {
+    margin-bottom: 1em;
+  }
+}
+
+.align-center {
+  text-align: center;
 }

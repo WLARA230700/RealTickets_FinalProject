@@ -41,25 +41,25 @@
             <div class="col-12">
                 <h2>Nombre Evento</h2>
             </div>
-            <div class="col-6 evento-info">Ubicación</div>
-            <div class="col-6 evento-info">Categoría</div>
-            <div class="col-6 evento-info">Fecha</div>
-            <div class="col-6 evento-info">Hora</div>
+            <div class="col-6 evento-info resumen-text">Ubicación</div>
+            <div class="col-6 evento-info resumen-text">Categoría</div>
+            <div class="col-6 evento-info resumen-text">Fecha</div>
+            <div class="col-6 evento-info resumen-text">Hora</div>
             <div class="col-12">
                 <h3 class="evento-info">Facturación</h3>
             </div>
-            <div class="col-12 evento-info">Nombre completo</div>
-            <div class="col-12 evento-info">Correo Electrónico</div>
-            <div class="col-12 evento-info">
+            <div class="col-12 evento-info resumen-text">Nombre completo</div>
+            <div class="col-12 evento-info resumen-text">Correo Electrónico</div>
+            <div class="col-12 evento-info resumen-text">
                 <h3>Entradas reservadas</h3>
             </div>
-            <div class="col-6">Adulto: 1</div>
+            <div class="col-6 evento-info align-center">Adulto: 1</div>
             <div class="col-6">
-                <p class="registrarse-precio">$100</p>
+                <p class="registrarse-precio  resumen-text">$100</p>
             </div>
-            <div class="col-6">Menor: 2</div>
+            <div class="col-6 evento-info align-center">Menor: 2</div>
             <div class="col-6">
-                <p class="registrarse-precio">$100</p>
+                <p class="registrarse-precio  resumen-text">$100</p>
             </div>
 
             <div class="registrarse-line margin-bottom-0"></div>
