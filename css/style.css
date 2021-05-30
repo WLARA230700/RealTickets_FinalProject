@@ -12,24 +12,6 @@
   font-style: normal;
 }
 @font-face {
-  font-family: "CorbelItalic";
-  src: url("../fonts/CORBELI.woff");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: "CorbelLight";
-  src: url("../fonts/CORBELL.woff");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: "CorbelLightItalic";
-  src: url("../fonts/CORBELLI.woff");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
   font-family: "CorbelBoldItalic";
   src: url("../fonts/CORBELZ.woff");
   font-weight: normal;
