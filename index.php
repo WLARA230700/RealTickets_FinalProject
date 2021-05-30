@@ -237,7 +237,7 @@
                 <div class="row margin-0 evento-padding">
                     <div class="col-6 padding-right-0 padding-left-0">
                         <div class="fondo-img-evento-eventos height-evento">
-                            <img class="img_evento_izq" src="./imgs/Img_Home_Reciente_1.jpg" alt="">
+                            <img class="img_evento_izq" src="./imgs/Img_Home_Reciente_1.jpg" alt="Imagen del evento 1">
                         </div>
                     </div>
                     <div class="col-6 padding-bottom-0 height-evento">
@@ -271,7 +271,7 @@
                 <div class="row margin-0 evento-padding">
                     <div class="col-6 padding-right-0 padding-left-0">
                         <div class="fondo-img-evento-eventos height-evento">
-                            <img class="img_evento_izq" src="./imgs/Img_Home_Reciente_2.jpg" alt="">
+                            <img class="img_evento_izq" src="./imgs/Img_Home_Reciente_2.jpg" alt="Imagen del evento 2">
                         </div>
                     </div>
                     <div class="col-6 padding-bottom-0 height-evento">
@@ -305,7 +305,7 @@
                 <div class="row margin-0 evento-padding">
                     <div class="col-6 padding-right-0 padding-left-0">
                         <div class="fondo-img-evento-eventos height-evento">
-                            <img class="img_evento_izq" src="./imgs/Img_Home_Reciente_1.jpg" alt="">
+                            <img class="img_evento_izq" src="./imgs/Img_Home_Reciente_1.jpg" alt="Imagen del evento 3">
                         </div>
                     </div>
                     <div class="col-6 padding-bottom-0 height-evento">
