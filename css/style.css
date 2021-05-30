@@ -279,18 +279,30 @@ p {
   .header-section {
     padding: 0 25%;
     background: url(/imgs/Img_Home.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: bottom;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 1200px) {
   .header-section {
     padding: 0 20%;
     background: url(/imgs/Img_Home.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: bottom;
   }
 }
 @media only screen and (min-width: 480px) and (max-width: 767px) {
   .header-section {
     padding: 0 10%;
     background: url(/imgs/Img_Home.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: bottom;
   }
 }
 
@@ -714,18 +726,30 @@ p {
   .eventos-header-section {
     padding: 0 25%;
     background: url(/imgs/Img_Eventos.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: bottom;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 1200px) {
   .eventos-header-section {
     padding: 0 20%;
     background: url(/imgs/Img_Eventos.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: bottom;
   }
 }
 @media only screen and (min-width: 480px) and (max-width: 767px) {
   .eventos-header-section {
     padding: 0 10%;
     background: url(/imgs/Img_Eventos.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: bottom;
   }
 }
 
@@ -854,18 +878,30 @@ p {
   .categoria-header-section {
     padding: 0 25%;
     background: url(/imgs/Img_Teatro.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: bottom;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 1200px) {
   .categoria-header-section {
     padding: 0 20%;
     background: url(/imgs/Img_Teatro.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: bottom;
   }
 }
 @media only screen and (min-width: 480px) and (max-width: 767px) {
   .categoria-header-section {
     padding: 0 10%;
     background: url(/imgs/Img_Teatro.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: bottom;
   }
 }
 
