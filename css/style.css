@@ -947,6 +947,20 @@ p {
 }
 
 /******************************************* PÁGINA REGISTRO *******************************************/
+.back-icon-display {
+  display: block;
+}
+@media only screen and (min-width: 1200px) {
+  .back-icon-display {
+    display: none;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 1200px) {
+  .back-icon-display {
+    display: none;
+  }
+}
+
 .registrarse-precio {
   display: block;
   border: 0.1em solid;

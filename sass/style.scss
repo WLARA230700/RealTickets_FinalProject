@@ -723,6 +723,15 @@ p{
     }
 }
 /******************************************* PÁGINA REGISTRO *******************************************/
+.back-icon-display{
+    display: block;
+    @include respond-to($large-desktop){
+        display: none;
+    }
+    @include respond-to($tablet-landscape){
+        display: none;
+    }
+}
 .registrarse-precio{
     display: block;
     border: .1em solid;

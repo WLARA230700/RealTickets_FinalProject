@@ -27,7 +27,7 @@
                     <!-- NAV -->
                     <nav class="nav fixed-top">
                         <!-- BACK -->
-                        <a href="./registro.php"><img class="menu-mobile" src="./imgs/vectores/Back.svg"
+                        <a class="back-icon-display" href="./registro.php"><img class="menu-mobile" src="./imgs/vectores/Back.svg"
                                 alt="Botón atrás"></a>
                         <!-- BACK -->
                         <p id="realtickets"><a class="logo-link" href="./index.php">RealTickets</a></p>
