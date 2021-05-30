@@ -179,7 +179,7 @@
                         <div class="categoria-bg">
                             <a class="categoria-link" href="./categoria.php">
                                 <h3 class="categoria-tittle-categorias">Académico</h3>
-                                <img class="img-categoria-categorias" src="./imgs/Académico_Icon.png" alt="">
+                                <img class="img-categoria-categorias" src="./imgs/vectores/academico.svg" alt="Ícono de la categoría acádemico">
                             </a>
                         </div>
                         <!-- CADA CATEGORÍA -->
@@ -187,7 +187,7 @@
                         <div class="categoria-bg">
                             <a class="categoria-link" href="./categoria.php">
                                 <h3 class="categoria-tittle-categorias">Arte</h3>
-                                <img class="img-categoria-categorias" src="./imgs/Arte_Icon.png" alt="">
+                                <img class="img-categoria-categorias" src="./imgs/vectores/arte.svg" alt="Ícono de la categoría arte">
                             </a>
                         </div>
                         <!-- CADA CATEGORÍA -->
@@ -195,7 +195,7 @@
                         <div class="categoria-bg">
                             <a class="categoria-link" href="./categoria.php">
                                 <h3 class="categoria-tittle-categorias">Cinema</h3>
-                                <img class="img-categoria-categorias" src="./imgs/Cinema_Icon.png" alt="">
+                                <img class="img-categoria-categorias" src="./imgs/vectores/cinema.svg" alt="Ícono de la categoría cinema">
                             </a>
                         </div>
                         <!-- CADA CATEGORÍA -->
@@ -203,7 +203,7 @@
                         <div class="categoria-bg">
                             <a class="categoria-link" href="./categoria.php">
                                 <h3 class="categoria-tittle-categorias">Conciertos</h3>
-                                <img class="img-categoria-categorias" src="./imgs/Conciertos_Icon.png" alt="">
+                                <img class="img-categoria-categorias" src="./imgs/vectores/conciertos.svg" alt="Ícono de la categoría conciertos">
                             </a>
                         </div>
                         <!-- CADA CATEGORÍA -->
@@ -211,7 +211,7 @@
                         <div class="categoria-bg">
                             <a class="categoria-link" href="./categoria.php">
                                 <h3 class="categoria-tittle-categorias">Fiestas</h3>
-                                <img class="img-categoria-categorias" src="./imgs/Fiesta_Icon.png" alt="">
+                                <img class="img-categoria-categorias" src="./imgs/vectores/fiestas.svg" alt="Ícono de la categoría fiestas">
                             </a>
                         </div>
                         <!-- CADA CATEGORÍA -->
@@ -219,7 +219,7 @@
                         <div class="categoria-bg">
                             <a class="categoria-link" href="./categoria.php">
                                 <h3 class="categoria-tittle-categorias">Teatro</h3>
-                                <img class="img-categoria-categorias" src="./imgs/Teatro_Icon.png" alt="">
+                                <img class="img-categoria-categorias" src="./imgs/vectores/teatro.svg" alt="Ícono de la categoría teatro">
                             </a>
                         </div>
                         <!-- CADA CATEGORÍA -->

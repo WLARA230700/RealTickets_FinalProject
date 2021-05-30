@@ -4,18 +4,21 @@
   src: url("../fonts/CORBEL.woff");
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
 @font-face {
   font-family: "CorbelBold";
   src: url("../fonts/CORBELB.woff");
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
 @font-face {
   font-family: "CorbelBoldItalic";
   src: url("../fonts/CORBELZ.woff");
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
 ::-webkit-scrollbar {
   width: 5px;
