@@ -206,19 +206,22 @@ p{
 /******************************************* PÁGINA INICIO *******************************************/
 //HEADER
 .header-section{
-    background: url(/imgs/Img_Home.jpg);
+    background: url(/imgs/mobile-bg/Img_Home.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: center;
     background-position-y: bottom;
     @include respond-to($large-desktop){
         padding: 0 25%;
+        background: url(/imgs/Img_Home.jpg);
     }
     @include respond-to($tablet-landscape){
         padding: 0 20%;
+        background: url(/imgs/Img_Home.jpg);
     }
     @include respond-to($tablet-portrait){
         padding: 0 10%;
+        background: url(/imgs/Img_Home.jpg);
     }
 }
 .header-tittle{
@@ -538,19 +541,22 @@ p{
 }
 /******************************************* PÁGINA EVENTOS *******************************************/
 .eventos-header-section{
-    background: url(/imgs/Img_Eventos.jpg);
+    background: url(/imgs/mobile-bg/Img_Eventos.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: center;
     background-position-y: bottom;
     @include respond-to($large-desktop){
         padding: 0 25%;
+        background: url(/imgs/Img_Eventos.jpg);
     }
     @include respond-to($tablet-landscape){
         padding: 0 20%;
+        background: url(/imgs/Img_Eventos.jpg);
     }
     @include respond-to($tablet-portrait){
         padding: 0 10%;
+        background: url(/imgs/Img_Eventos.jpg);
     }
 }
 .tittle-line{
@@ -643,19 +649,22 @@ p{
 }
 /******************************************* PÁGINA CATEGORÍA *******************************************/
 .categoria-header-section{
-    background: url(/imgs/Img_Teatro.jpg);
+    background: url(/imgs/mobile-bg/Img_Teatro.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position-x: center;
     background-position-y: bottom;
     @include respond-to($large-desktop){
         padding: 0 25%;
+        background: url(/imgs/Img_Teatro.jpg);
     }
     @include respond-to($tablet-landscape){
         padding: 0 20%;
+        background: url(/imgs/Img_Teatro.jpg);
     }
     @include respond-to($tablet-portrait){
         padding: 0 10%;
+        background: url(/imgs/Img_Teatro.jpg);
     }
 }
 /******************************************* PÁGINA EVENTO *******************************************/
