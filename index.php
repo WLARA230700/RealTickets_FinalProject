@@ -179,7 +179,7 @@
                         <div class="categoria-bg">
                             <a class="categoria-link" href="./categoria.php">
                                 <h3 class="categoria-tittle-categorias">Académico</h3>
-                                <img class="img-categoria-categorias" src="./imgs/vectores/academico.svg" alt="Ícono de la categoría acádemico">
+                                <img class="img-categoria-categorias" src="./imgs/vectores/academico.svg" alt="Ícono de la categoría acádemico" width="60" height="60">
                             </a>
                         </div>
                         <!-- CADA CATEGORÍA -->
@@ -187,7 +187,7 @@
                         <div class="categoria-bg">
                             <a class="categoria-link" href="./categoria.php">
                                 <h3 class="categoria-tittle-categorias">Arte</h3>
-                                <img class="img-categoria-categorias" src="./imgs/vectores/arte.svg" alt="Ícono de la categoría arte">
+                                <img class="img-categoria-categorias" src="./imgs/vectores/arte.svg" alt="Ícono de la categoría arte" width="60" height="60">
                             </a>
                         </div>
                         <!-- CADA CATEGORÍA -->
@@ -195,7 +195,7 @@
                         <div class="categoria-bg">
                             <a class="categoria-link" href="./categoria.php">
                                 <h3 class="categoria-tittle-categorias">Cinema</h3>
-                                <img class="img-categoria-categorias" src="./imgs/vectores/cinema.svg" alt="Ícono de la categoría cinema">
+                                <img class="img-categoria-categorias" src="./imgs/vectores/cinema.svg" alt="Ícono de la categoría cinema" width="60" height="60">
                             </a>
                         </div>
                         <!-- CADA CATEGORÍA -->
@@ -203,7 +203,7 @@
                         <div class="categoria-bg">
                             <a class="categoria-link" href="./categoria.php">
                                 <h3 class="categoria-tittle-categorias">Conciertos</h3>
-                                <img class="img-categoria-categorias" src="./imgs/vectores/conciertos.svg" alt="Ícono de la categoría conciertos">
+                                <img class="img-categoria-categorias" src="./imgs/vectores/conciertos.svg" alt="Ícono de la categoría conciertos" width="60" height="60">
                             </a>
                         </div>
                         <!-- CADA CATEGORÍA -->
@@ -211,7 +211,7 @@
                         <div class="categoria-bg">
                             <a class="categoria-link" href="./categoria.php">
                                 <h3 class="categoria-tittle-categorias">Fiestas</h3>
-                                <img class="img-categoria-categorias" src="./imgs/vectores/fiestas.svg" alt="Ícono de la categoría fiestas">
+                                <img class="img-categoria-categorias" src="./imgs/vectores/fiestas.svg" alt="Ícono de la categoría fiestas" width="60" height="60">
                             </a>
                         </div>
                         <!-- CADA CATEGORÍA -->
@@ -219,7 +219,7 @@
                         <div class="categoria-bg">
                             <a class="categoria-link" href="./categoria.php">
                                 <h3 class="categoria-tittle-categorias">Teatro</h3>
-                                <img class="img-categoria-categorias" src="./imgs/vectores/teatro.svg" alt="Ícono de la categoría teatro">
+                                <img class="img-categoria-categorias" src="./imgs/vectores/teatro.svg" alt="Ícono de la categoría teatro" width="60" height="60">
                             </a>
                         </div>
                         <!-- CADA CATEGORÍA -->
@@ -237,7 +237,7 @@
                 <div class="row margin-0 evento-padding">
                     <div class="col-6 padding-right-0 padding-left-0">
                         <div class="fondo-img-evento-eventos height-evento">
-                            <img class="img_evento_izq" src="./imgs/Img_Home_Reciente_1.jpg" alt="Imagen del evento 1">
+                            <img class="img_evento_izq" src="./imgs/Img_Home_Reciente_1.jpg" alt="Imagen del evento 1" width="500" height="250">
                         </div>
                     </div>
                     <div class="col-6 padding-bottom-0 height-evento">
@@ -271,7 +271,7 @@
                 <div class="row margin-0 evento-padding">
                     <div class="col-6 padding-right-0 padding-left-0">
                         <div class="fondo-img-evento-eventos height-evento">
-                            <img class="img_evento_izq" src="./imgs/Img_Home_Reciente_2.jpg" alt="Imagen del evento 2">
+                            <img class="img_evento_izq" src="./imgs/Img_Home_Reciente_2.jpg" alt="Imagen del evento 2" width="500" height="250">
                         </div>
                     </div>
                     <div class="col-6 padding-bottom-0 height-evento">
@@ -305,7 +305,7 @@
                 <div class="row margin-0 evento-padding">
                     <div class="col-6 padding-right-0 padding-left-0">
                         <div class="fondo-img-evento-eventos height-evento">
-                            <img class="img_evento_izq" src="./imgs/Img_Home_Reciente_1.jpg" alt="Imagen del evento 3">
+                            <img class="img_evento_izq" src="./imgs/Img_Home_Reciente_1.jpg" alt="Imagen del evento 3" width="500" height="250">
                         </div>
                     </div>
                     <div class="col-6 padding-bottom-0 height-evento">
