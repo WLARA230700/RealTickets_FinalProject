@@ -32,7 +32,7 @@
                         xmlns="http://www.w3.org/2000/svg"
                         xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
                         xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" width="5.291667mm"
-                        height="5.291667mm" viewBox="0 0 5.291667 5.291667" version="1.1" id="svg8"
+                        height="5.291667mm" viewBox="0 0 5.291667 5.291667" version="1.1" id="menu-mobile-bars"
                         inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)" sodipodi:docname="Ham_Menu.svg">
                         <defs id="defs2" />
                         <sodipodi:namedview id="base" pagecolor="#ffffff" bordercolor="#666666" borderopacity="1.0"
@@ -100,7 +100,7 @@
                         xmlns="http://www.w3.org/2000/svg"
                         xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
                         xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" width="4.5247326mm"
-                        height="5.2846856mm" viewBox="0 0 4.5247326 5.2846856" version="1.1" id="svg8"
+                        height="5.2846856mm" viewBox="0 0 4.5247326 5.2846856" version="1.1" id="search-icon"
                         inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)" sodipodi:docname="Search.svg">
                         <defs id="defs2" />
                         <sodipodi:namedview id="base" pagecolor="#ffffff" bordercolor="#666666" borderopacity="1.0"
